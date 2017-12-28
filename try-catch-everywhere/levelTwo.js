@@ -7,6 +7,7 @@ const main = async () => {
     return await levelOne();
   } catch (e) {
     console.log('From levelTwo try/catch:\n', e);
+    throw e;
   }
 };
 

@@ -13,6 +13,7 @@ const main = async () => {
     }
   } catch (e) {
     console.log('From levelOne try/catch:\n', e);
+    throw e;
   }
 };
 
